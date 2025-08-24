@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aniruddha Lalge</title>
+  <link rel="icon" type="image/png" href="assets/favicon.ico"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+        <img src="assets/logo.png" alt="AL Logo" height="48" class="me-2 logo-animated" style="max-height:48px;" tabindex="0">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section-custom d-flex align-items-center justify-content-center text-center">
+    <div class="container position-relative z-2">
+      <img src="assets/profile.jpg" alt="Aniruddha Lalge Profile Photo" class="rounded-circle shadow-lg mb-4 hero-img-custom" tabindex="0">
+      <h3 class="hero-greeting" tabindex="0"><span id="dynamic-greeting"></span>, It's Me</h3>
+      <h1 class="hero-name" tabindex="0">Aniruddha Lalge</h1>
+      <h3 class="hero-role" tabindex="0">And I'm a</h3>
+      <h2><span class="typed-text" tabindex="0"></span></h2>
+      <div class="hero-social-icons mt-4">
+        <a href="https://www.linkedin.com/in/aniruddha-lalge-aa06041b3/" target="_blank" class="hero-icon-link" tabindex="0"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/aniruddha__7447?igsh=andpcDNreWFhaHk2" target="_blank" class="hero-icon-link" tabindex="0"><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/aniruddha7447" target="_blank" class="hero-icon-link" tabindex="0"><i class='bx bxl-github'></i></a>
+        <a href="mailto:aniruddhalalge283@gmail.com" class="hero-icon-link" tabindex="0"><i class='bx bxl-gmail'></i></a>
+      </div>
+    </div>
+    <div class="scroll-down-arrow" tabindex="0" aria-label="Scroll down">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFC442" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="about-card" data-aos="fade-up">
+            <div class="about-header">
+              <img src="assets/profile.jpg" alt="Aniruddha Profile" class="about-avatar" tabindex="0">
+              <div>
+                <h2 class="about-title" tabindex="0">About Me</h2>
+                <p class="about-subtitle" tabindex="0">PG-DAC • Full-Stack Developer</p>
+              </div>
+            </div>
+
+            <div class="about-description" tabindex="0">
+              <p>I’m a Computer Engineering graduate currently pursuing PG-DAC at C-DAC (Feb 2025). I enjoy building end-to-end web applications and exploring practical machine learning. My recent work spans Spring Boot + React, .NET + React, and ML projects focused on classification and automation.</p>
+            </div>
+
+            <div class="skills-container" aria-label="Technical Skills">
+              <span class="skill-badge" tabindex="0">Java Development</span>
+              <span class="skill-badge" tabindex="0">Web Development</span>
+              <span class="skill-badge" tabindex="0">Spring Boot</span>
+              <span class="skill-badge" tabindex="0">React</span>
+              <span class="skill-badge" tabindex="0">ASP.NET Core</span>
+              <span class="skill-badge" tabindex="0">Html/CSS</span>
+              <span class="skill-badge" tabindex="0">MySQL</span>
+              <span class="skill-badge" tabindex="0">Data Structures</span>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-item" tabindex="0">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Major Projects</div>
+              </div>
+              <div class="stat-item" tabindex="0">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Core Technologies</div>
+              </div>
+            </div>
+
+            <div class="education-section-inner mt-5">
+              <h3 class="section-subtitle" tabindex="0">Education</h3>
+              <div class="education-timeline">
+                <div class="timeline-item" tabindex="0">
+                  <div class="timeline-content">
+                    <div class="timeline-date">February 2025 - Present</div>
+                    <h3 class="timeline-title">PG-DAC (Post Graduate Diploma in Advanced Computing)</h3>
+                    <div class="timeline-subtitle">Centre for Development of Advanced Computing (C-DAC)</div>
+                    <p class="timeline-description">Comprehensive coursework and labs across Java, Web Programming, DBMS, .NET, DS & Algorithms, and Advanced SDLC.</p>
+                    <ul class="timeline-achievements">
+                      <li><strong>Key Modules:</strong> C++, Java OOP, Data Structures & Algorithms (Java), WPT, DB Technologies, .NET, Web-based Java, ASDM</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="timeline-item" tabindex="0">
+                  <div class="timeline-content">
+                    <div class="timeline-date">2020 - 2024</div>
+                    <h3 class="timeline-title">Bachelor of Engineering — Computer Engineering</h3>
+                    <div class="timeline-subtitle">Smt. Kashibai Navale College of Engineering, Pune (SPPU)</div>
+                    <p class="timeline-description">Built solid foundation in software engineering, databases, and web technologies; completed full-stack and ML projects.</p>
+                    <ul class="timeline-achievements">
+                      <li><strong>Percentage:</strong> 76.64%</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="timeline-item" tabindex="0">
+                  <div class="timeline-content">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <h3 class="timeline-title">Higher Secondary School (XII - HSC)</h3>
+                    <div class="timeline-subtitle">Chaitanyas International School, Baramati</div>
+                    <ul class="timeline-achievements">
+                      <li><strong>Percentage:</strong> 74.76%</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="timeline-item" tabindex="0">
+                  <div class="timeline-content">
+                    <div class="timeline-date">2018</div>
+                    <h3 class="timeline-title">Secondary School (X - SSC)</h3>
+                    <div class="timeline-subtitle">M.E.S High School, Baramati</div>
+                    <ul class="timeline-achievements">
+                      <li><strong>Percentage:</strong> 86.00%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /education -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="skills-card">
+            <h2 class="skills-title" tabindex="0">Skills</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="skills-subtitle">Technical Skills</h3>
+
+                <div class="skills-group">
+                  <h4 class="skills-group-title">Programming Languages</h4>
+                  <ul class="skills-list">
+                    <li><i class="fab fa-java"></i> Java
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%" aria-label="Java proficiency: 85 percent" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                    <li><i class="fa-solid fa-code"></i> C++
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%" aria-label="C++ proficiency: 80 percent" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills-group">
+                  <h4 class="skills-group-title">Frameworks & Libraries</h4>
+                  <ul class="skills-list">
+                    <li><i class="fa-solid fa-leaf"></i> Spring Boot
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 82%" aria-label="Spring Boot proficiency: 82 percent" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                    <li><i class="fa-brands fa-react"></i> React.js
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 78%" aria-label="React proficiency: 78 percent" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                    <li><i class="fa-brands fa-microsoft"></i> ASP.NET Core
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%" aria-label="ASP.NET Core proficiency: 75 percent" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills-group">
+                  <h4 class="skills-group-title">Databases</h4>
+                  <ul class="skills-list">
+                    <li><i class="fas fa-database"></i> MySQL
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%" aria-label="MySQL proficiency: 85 percent" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                    <li><i class="fas fa-database"></i> SQL Server
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 72%" aria-label="SQL Server proficiency: 72 percent" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills-group">
+                  <h4 class="skills-group-title">Machine Learning</h4>
+                  <ul class="skills-list">
+                    <li><i class="fas fa-brain"></i> Classification (SVM, Random Forest)
+                      <div class="skill-bar"><div class="skill-bar-fill" style="width: 70%" aria-label="ML proficiency: 70 percent" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="col-md-6">
+                <h3 class="skills-subtitle">Soft Skills</h3>
+                <ul class="skills-list soft-skills-list">
+                  <li><i class="fas fa-users"></i> Teamwork
+                    <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%" aria-label="Teamwork proficiency: 90 percent" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                  </li>
+                  <li><i class="fas fa-comments"></i> Communication
+                    <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%" aria-label="Communication proficiency: 85 percent" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                  </li>
+                  <li><i class="fas fa-lightbulb"></i> Problem Solving
+                    <div class="skill-bar"><div class="skill-bar-fill" style="width: 88%" aria-label="Problem Solving proficiency: 88 percent" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div></div>
+                  </li>
+                  <li><i class="fas fa-user-clock"></i> Time Management
+                    <div class="skill-bar"><div class="skill-bar-fill" style="width: 84%" aria-label="Time Management proficiency: 84 percent" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div></div>
+                  </li>
+                  <li><i class="fas fa-tasks"></i> Project Ownership
+                    <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%" aria-label="Project Ownership proficiency: 80 percent" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+                  </li>
+                </ul>
+              </div>
+            </div><!-- /row -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="projects-title" tabindex="0">Projects</h2>
+
+      <!-- Personal Intro for Projects Section -->
+      <p class="projects-intro text-center mb-4" style="color:rgba(255,255,255,0.95);font-size:1.15rem;">
+        I love building practical solutions that span backend, frontend, and data. Here are a few highlights.
+      </p>
+
+      <!-- Technical Projects -->
+      <h3 id="technical-projects" class="projects-title" style="font-size:2rem;" tabindex="0">Technical Projects</h3>
+      <div class="row g-4 mb-5">
+        <!-- E-Blood Bank -->
+        <div class="col-md-4">
+          <div class="project-card project-modal-trigger" data-project="eblood" tabindex="0">
+            <img src="assets/blood-donation-social-media-template.png" alt="E-Blood Bank" class="project-img mb-2" loading="lazy"/>
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-hand-holding-droplet"></i></div>
+              <h3 class="project-title">E-Blood Bank</h3>
+            </div>
+            <p class="project-description">Full-stack blood donation & inventory management with role-based access and JWT security.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Spring Boot</span>
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li><strong>Role:</strong> Full Stack Developer</li>
+              <li><strong>Date:</strong> 2024–2025</li>
+              <li><strong>Focus:</strong> RBAC, secure APIs, donor/hospital workflows</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aniruddha7447" class="project-link" target="_blank" rel="noopener" loading="lazy">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fake Instagram Profile Detection -->
+        <div class="col-md-4">
+          <div class="project-card project-modal-trigger" data-project="fakeinsta" tabindex="0">
+            <img src="assets/black-simple-cyber-security-instagram-post.png" alt="Fake Instagram Profile Detection" class="project-img mb-2" loading="lazy"/>
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-user-shield"></i></div>
+              <h3 class="project-title">Fake Instagram Profile Detection</h3>
+            </div>
+            <p class="project-description">ML pipeline to identify & classify fake profiles using SVM and Random Forest.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">SVM</span>
+              <span class="tech-badge">Random Forest</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li><strong>Role:</strong> ML Engineer</li>
+              <li><strong>Date:</strong> 2023–2024</li>
+              <li><strong>Focus:</strong> Feature engineering, model evaluation</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aniruddha7447/My-Final-Year-Project" class="project-link" target="_blank" rel="noopener" loading="lazy">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weird Dream Logs -->
+        <div class="col-md-4">
+          <div class="project-card project-modal-trigger" data-project="dreamlogs" tabindex="0">
+            <img src="assets/purple-and-orange-illustrative-quote-desktop-wallpaper.png" alt="Weird Dream Logs" class="project-img mb-2" loading="lazy"/>
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-moon"></i></div>
+              <h3 class="project-title">Weird Dream Logs</h3>
+            </div>
+            <p class="project-description">Journaling web app to log, search, and filter dream entries on a secure stack.</p>
+            <div class="project-tech">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">React.js (Vite)</span>
+              <span class="tech-badge">SQL Server</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li><strong>Role:</strong> Full Stack Developer</li>
+              <li><strong>Date:</strong> 2024</li>
+              <li><strong>Focus:</strong> REST APIs, EF Core, UI/UX</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aniruddha7447" class="project-link" target="_blank" rel="noopener" loading="lazy">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Modals -->
+    
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="resume-card glass-resume-card text-center">
+            <div class="card-body">
+              <i class="fa-solid fa-file-lines fa-3x text-accent mb-3"></i>
+              <h2 class="card-title mb-3">Resume</h2>
+              <ul class="resume-highlights text-start mx-auto mb-4">
+                <li><i class="fa-solid fa-circle-check text-accent me-2"></i> PG-DAC trainee with strong foundations in Java, Web, DBMS, and .NET</li>
+                <li><i class="fa-solid fa-circle-check text-accent me-2"></i> Built full-stack systems with Spring Boot/React and .NET/React</li>
+                <li><i class="fa-solid fa-circle-check text-accent me-2"></i> Implemented ML classifiers (SVM, Random Forest) for social-media fraud detection</li>
+              </ul>
+              <!-- Use URL-encoded spaces or rename the file in /assets -->
+              <a href="https://drive.google.com/file/d/18HJfuIfgaFyumqf0aFPkPhBD56YQCT4p/view?usp=drive_link" class="btn btn-accent btn-lg resume-download-btn" target="_blank" download aria-label="Download Resume PDF">
+                <i class="fa-solid fa-download me-2"></i>Download Resume (PDF)
+              </a>
+              <span class="download-feedback" style="display:none;">Downloaded!</span>
+              <p class="resume-updated-date mt-3" style="color:rgba(255,255,255,0.7);font-size:0.98rem;">Last updated: August 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="glass-contact-card contact-card">
+            <div class="card-body">
+              <h2 class="card-title mb-3"><i class="fa-solid fa-envelope me-2"></i>Contact</h2>
+              <form id="contactForm" action="https://formspree.io/f/mpwdqyoq" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="you@email.com">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" required placeholder="Type your message..."></textarea>
+                </div>
+                <input type="text" name="_gotcha" style="display:none">
+                <button type="submit" class="btn btn-accent">Send</button>
+                <span class="contact-feedback" style="display:none;"></span>
+              </form>
+              <div class="contact-reply-note mt-3 mb-2 text-center" style="color:rgba(255,255,255,0.7);font-size:0.98rem;">
+                <i class="fa-regular fa-clock me-1"></i>I usually reply within 24 hours
+              </div>
+              <div class="contact-socials mt-4 text-center">
+                <a href="https://www.linkedin.com/in/aniruddha-lalge-aa06041b3/" class="contact-social-link" target="_blank" aria-label="LinkedIn" data-bs-toggle="tooltip" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/aniruddha7447" class="contact-social-link" target="_blank" aria-label="GitHub" data-bs-toggle="tooltip" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:aniruddhalalge283@gmail.com" class="contact-social-link" aria-label="Email" data-bs-toggle="tooltip" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <button class="btn btn-outline-light btn-copy-email ms-2" data-email="aniruddhalalge283@gmail.com" aria-label="Copy email address" type="button"><i class="fa-regular fa-copy"></i></button>
+                <span class="copy-email-tooltip" style="display:none;">Copied!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 footer-gradient text-light">
+    <div class="container">
+      <div class="mb-2">
+        <a href="https://www.linkedin.com/in/aniruddha-lalge-aa06041b3/" class="text-light me-3" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/aniruddha7447" class="text-light me-3" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:aniruddhalalge283@gmail.com" class="text-light"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      &copy; 2025 Aniruddha Lalge. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    // Minimal inline init to make the hero text work if scripts.js is absent
+    const typedTarget = document.querySelector('.typed-text');
+    if (typedTarget) {
+      new Typed(typedTarget, {
+        strings: ['Full-Stack Developer', 'Java & Spring Boot', 'React.js & .NET', 'ML Enthusiast'],
+        typeSpeed: 60, backSpeed: 36, backDelay: 1200, loop: true
+      });
+    }
+    // Simple greeting based on time
+    const hours = new Date().getHours();
+    const greet = hours < 12 ? 'Good Morning' : hours < 18 ? 'Good Afternoon' : 'Good Evening';
+    const greetEl = document.getElementById('dynamic-greeting');
+    if (greetEl) greetEl.textContent = greet;
+
+    // Project card -> modal mapping
+    // Project card -> modal mapping
+const modalMap = {
+  'eblood': 'modal-eblood',
+  'fakeinsta': 'modal-fakeinsta',
+  'dreamlogs': 'modal-dreamlogs'
+};
+
+document.querySelectorAll('.project-modal-trigger').forEach(card => {
+  card.addEventListener('click', (e) => {
+    // if clicked on an <a> tag inside card, don't open modal
+    if (e.target.closest('a')) {
+      return; // let the link work normally
+    }
+
+    const key = card.getAttribute('data-project');
+    const modalId = modalMap[key];
+    if (modalId) {
+      const modal = new bootstrap.Modal(document.getElementById(modalId));
+      modal.show();
+    }
+  });
+
+  // allow Enter key to open modal (keyboard accessibility)
+  card.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      const modalId = modalMap[card.getAttribute('data-project')];
+      if (modalId) {
+        const modal = new bootstrap.Modal(document.getElementById(modalId));
+        modal.show();
+      }
+    }
+  });
+});
+
+
+    
+    // Copy email button feedback
+    const copyBtn = document.querySelector('.btn-copy-email');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async ()=>{
+        const email = copyBtn.getAttribute('data-email');
+        try {
+          await navigator.clipboard.writeText(email);
+          const tip = document.querySelector('.copy-email-tooltip');
+          if (tip) {
+            tip.style.display = 'inline-block';
+            setTimeout(()=> tip.style.display = 'none', 1500);
+          }
+        } catch(e) {}
+      });
+    }
+  </script>
+  <!-- If you have a separate JS file, you can still include it below -->
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
